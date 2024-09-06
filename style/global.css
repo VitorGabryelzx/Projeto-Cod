@@ -1,0 +1,234 @@
+@charset "utf8";
+
+@font-face{
+      font-family:'cod mw2';
+      src: url('../fonts/ModernWarfare.ttf') format('opentype') ;
+      font-weight: normal;
+
+      font-family: 'cod';
+      src: url('../fonts/Call\ of\ Ops\ Duty.otf') format('opentype');
+      font-family: normal;
+}
+*{
+      margin: 0px;
+      padding: 0px;
+}
+
+
+:root{
+
+      --cor1:#000000;
+      --cor2:rgb(29, 27, 27);
+      --cor3:#0AFF00;
+      --cor4:#5FEB00;
+      --cor5:#64EB50;
+      --cor6:#FFFFFF;
+
+      --font-padrao :'cod mw2' , cursive;
+      --font-destaque : 'cod' , sans-serif;
+}  
+body{
+      background-color: black;
+      min-height: 2000px;
+}
+
+header {
+      background-color: black;
+      min-height: 100px;
+      text-align: center;
+      padding-top: 30px;
+
+}
+header #logo{
+     height: 80px;
+     width: 300px;
+}
+nav{
+      background-color:var(--cor2) ;
+      min-height:40px;
+      text-align: center;
+      padding-top: 10px;
+}
+nav > a{
+      color: var(--cor3);
+      padding: 25px;
+      border-radius: 8px;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-decoration: none;
+      transition-duration: 0.6s; ;
+      margin: auto;
+      
+}
+nav a:hover{
+      color: var();
+      background-color: #FFFFFF;
+      padding: 10px;
+}
+#ghost{
+      height: 600px;
+      width: 100%;
+}
+main{
+      background-color: #FFFFFF;
+      max-width: 1200px;
+      min-width: 300px;
+      margin: auto;
+      padding: 20px;
+      margin-bottom: 30px;
+      height: 1730px;
+}
+
+main h1{
+      text-align: center;
+      font-size: medium;
+      font-weight: bold;
+}
+main h2{
+      text-align: center;
+      font-size: small;
+      font-weight: bold;
+
+}
+main p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      text-align: center;
+}
+
+main article section{
+      max-width:300px;
+      max-height:400px;
+      background-color: #000000;
+}
+
+main section div{
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin-left: 200px;
+      margin-top: 80px;
+      
+
+}
+
+main section div:hover{
+      box-shadow: 1px 2px 15px rgba(38, 239, 2, 0.477);
+      background-color: #000000;
+      border-radius: 15px;
+      transition-duration:0.7s ;
+     
+}
+
+main section #containerA{
+      height: 410px;
+      width: 300px;
+      
+}
+
+main section #containerA img.soldier{
+      height: 300px;
+      width: 200px;
+      margin: auto;
+      display: block;
+}
+main section #containerB {
+      height: 410px;
+      width: 350px;
+      
+     
+}
+main section #containerB img.soldier {
+      height: 300px;
+      width: 400px;
+      display: block;
+      margin: auto;
+      margin-left: -40px;
+}
+main section #containerC {
+     
+      height: 410px;
+      width: 340px;
+      margin:auto;
+      display: block;
+      margin-top:60px ;
+      margin-bottom: 50px;
+}
+main section #containerC img.soldier{
+      height: 300px;
+      width: 200px;
+      margin: auto;
+      display: block;
+}
+
+main .alinhamento{
+      margin-top: 40px;
+      padding: 15px;
+      text-align: center;
+      font-size :18px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+     
+
+}
+
+main .alinhamento:hover{
+      background-color:var(--cor3);
+      border-radius: 50px;
+      color: white;
+}
+main section a{
+      text-decoration: none;
+      color: #000000;
+}
+
+aside{
+      background-color: var(--cor3);
+      font-size: medium;
+      text-align: center;
+      border-radius: 10px 10px;
+      min-height: 200px;
+      margin-top: 112px;
+      
+}
+aside:hover{
+      box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.392);
+}
+aside h3{
+      text-align: justify;
+      padding:15px;
+      color: #FFFFFF;
+      background-color: #000000;
+      border-radius: 10px 10px 0px 0px;
+      margin-bottom: 30px;
+}
+
+footer{
+      background-color: var(--cor2);
+      padding: 50px;
+      min-height: 50px;
+}
+#rodape{
+      margin-left: 445px;
+}
+
+.logo{
+      height: 120px;
+      
+}
+footer > p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 60px;
+      color: white;
+      text-align: center;
+}
+footer #pequeno{
+      font-size: small;
+      color: white;
+      text-align: center;
+      margin: 30px 200px 40px 200px;
+}
+
+
+
+
